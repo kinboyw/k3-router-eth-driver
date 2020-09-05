@@ -1,0 +1,7 @@
+Firmware提取方法如下：
+
+readelf -a dhd24.ko | grep dlarray_4366c0
+
+00 F2 3E B8 作为固件起点偏移量。
+偏移量
+0A 00 2F 01 作为固件结尾偏移量。
